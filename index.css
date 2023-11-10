@@ -1,0 +1,90 @@
+body {
+    margin-top: 100px;
+    font-family: Overpass;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 300px;
+    height: auto;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.star-div {
+    background-color: hsl(215, 17%, 22%);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 15px;
+    height: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.button-div {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+}
+
+.btn {
+    background-color: hsl(215, 17%, 22%);
+    color: hsl(216, 12%, 54%);
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button-submit {
+    width: 98%;
+    height: 40px;
+    margin: 25px 20px 10px 0px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+.button-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.btn:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.is-selected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    font-weight: 700;
+}

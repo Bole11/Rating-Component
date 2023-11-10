@@ -1,0 +1,37 @@
+.thank-you-main {
+    width: 300px;
+    height: auto;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.rating-div {
+    margin: 25px 0 10px 0;
+    padding: 10px;
+    background-color: hsl(215, 17%, 22%);
+    color:  hsl(25, 62%, 55%);
+    border-radius: 20px;
+}
+
+.thank-you-text {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom:0;
+}
+
+.thank-you-p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.thank-you-img {
+    margin-top: 10px;
+}
+
